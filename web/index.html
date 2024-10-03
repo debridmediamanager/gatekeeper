@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Gatekeeper</title>
+  <title>🏰 Welcome, Traveler!</title>
   <link href="/static/css/tailwind.css" rel="stylesheet">
-  <script src="https://unpkg.com/htmx.org@1.9.12/dist/htmx.min.js"></script>
 </head>
-<body class="bg-gray-900 text-gray-200 flex items-center justify-center h-screen">
+
+<body class="bg-white text-black flex items-center justify-center h-screen">
   <div class="text-center">
-    <h1 class="text-4xl font-extrabold mb-6 text-white">🚀 Access <strong>sponsor perks</strong> for Debrid Media Manager + zurg</h1>
-    <a href="/login/github" class="bg-indigo-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-indigo-600 transition duration-300 ease-in-out inline-flex items-center">
-      First, you need to <span>🔑 Login with GitHub</span>
-    </a>
+    <h1 class="text-4xl font-extrabold mb-6">🏰 Welcome, Traveler!</h1>
+    <p class="text-xl mb-4">You stand at the gates of the Guild of <strong>Debrid Media Manager + zurg</strong>.</p>
+    <p class="text-lg mb-6">A grand quest awaits you to unlock the guild’s hidden treasures...</p>
+    <form action="/begin">
+      <button type="submit" class="bg-black text-white px-4 py-2 rounded">
+        🚪 Embark on Your Quest
+      </button>
+    </form>
   </div>
 </body>
+
 </html>

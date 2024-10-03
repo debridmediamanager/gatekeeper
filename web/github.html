@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Login</title>
+    <link href="/static/css/tailwind.css" rel="stylesheet">
+</head>
+
+<body class="bg-white text-black flex items-center justify-center h-screen">
+    <div class="text-center">
+        <h1 class="text-4xl font-extrabold mb-6">🔐 GitHub Login Required</h1>
+        <p class="text-xl mb-4">You must prove your allegiance to the Guild of GitHub to proceed.</p>
+        <form action="/auth/github">
+            <button type="submit" class="bg-black text-white px-4 py-2 rounded">
+                🛡️ Login with GitHub
+            </button>
+        </form>
+    </div>
+</body>
+
+</html>
